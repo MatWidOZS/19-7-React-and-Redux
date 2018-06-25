@@ -29,17 +29,17 @@ function removeComment(id) {
 	}
 }
 
-function thumbUpComment(id, thumb) {
+function thumbUpComment(commentId) {
 	return {
 		type: THUMB_UP_COMMENT,
-		id
+		id: commentId
 	}
 }
 
-function thumbDownComment(id, thumb) {
+function thumbDownComment(commentId) {
 	return {
 		type: THUMB_DOWN_COMMENT,
-		id
+		id: commentId
 	}
 }
 

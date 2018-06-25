@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import CommentsListContainer from './CommentsListContainer';
-import './App.css';
+import CommentsListContainer from '../containers/CommentsListContainer';
+import '../css/App.css';
 
 const App = () => {
 	return (

@@ -4,7 +4,7 @@ import {
 	EDIT_COMMENT,
 	THUMB_UP_COMMENT,
 	THUMB_DOWN_COMMENT
-} from './actions';
+} from '../actions/actions';
 
 
 function comments(state = [], action) {
